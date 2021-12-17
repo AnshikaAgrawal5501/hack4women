@@ -1,0 +1,27 @@
+.post-pic {
+    width: 300px;
+    height: 300px;
+}
+
+.like-button {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.like-icon {
+    font-size: 30px !important;
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .post-pic {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 400px) {
+    .post-pic {
+        width: 200px;
+        height: 200px;
+    }
+}

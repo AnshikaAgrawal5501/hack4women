@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+.wave {
+    background-image: url("./waveblack.png");
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-size: 1000px 100px;
+}
+
+.wave-1 {
+    animation: animate1 30s linear infinite;
+    bottom: 100px;
+    z-index: 4;
+}
+
+.wave-2 {
+    animation: animate2 15s linear -5s infinite;
+    bottom: 110px;
+    opacity: 0.5;
+    z-index: 3;
+}
+
+.wave-3 {
+    animation: animate1 30s linear -2s infinite;
+    bottom: 115px;
+    opacity: 0.75;
+    z-index: 2;
+}
+
+.wave-4 {
+    animation: animate2 5s linear -5s infinite;
+    bottom: 120px;
+    opacity: 0.25;
+    z-index: 1;
+}
+
+@keyframes animate1 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1000px;
+    }
+}

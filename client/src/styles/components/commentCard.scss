@@ -1,0 +1,26 @@
+.comment-textarea {
+    width: 85%;
+    margin: 10px auto !important;
+}
+
+.comment-button {
+    width: 150px;
+    margin: 5px auto 10px !important;
+}
+
+.comment-card {
+    width: 85%;
+}
+
+.comment-card-img {
+    height: 100px !important;
+    width: 100px !important;
+    margin: auto 10px auto 20px;
+}
+
+@media (max-width: 576px) {
+    .abc {
+        width: 100% !important;
+        overflow-x: scroll !important;
+    }
+}

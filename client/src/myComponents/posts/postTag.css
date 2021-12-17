@@ -1,0 +1,14 @@
+.inactiveTag{
+    background-color:#781D42;
+    color:white;
+    padding: 6px;
+    border-radius:30px;
+    margin-bottom: 10px !important;
+}
+.activeTag{
+    background-color:#E9A6A6;
+    color: white;
+    padding: 6px;
+    border-radius:30px;
+    margin-bottom: 10px !important;
+}

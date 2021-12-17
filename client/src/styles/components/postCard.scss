@@ -1,0 +1,29 @@
+.post-card {
+    width: 45%;
+}
+
+.post-card div {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+    .post-card {
+        width: 85%;
+    }
+}
+
+@media (max-width: 650px) and (min-width: 576px) {
+    .post-card-img {
+        width: 100px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .post-card-img {
+        width: 100px !important;
+    }
+}

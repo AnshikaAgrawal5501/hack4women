@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+#banner {
+    background-color: black;
+    height: 110vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+i {
+    position: absolute;
+    color: white;
+    animation: animation 5s linear infinite;
+    z-index: 10;
+}
+
+.Typewriter,
+.quote {
+    color: white;
+    z-index: 20;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.Typewriter {
+    top: 30%;
+    font-size: 80px;
+    font-family: 'Courgette', cursive;
+    line-height: normal;
+}
+
+.quote {
+    bottom: 15%;
+}
+
+.quote p {
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+@keyframes animation {
+    0% {
+        transform: scale(0) translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) translateY(-500%) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .Typewriter {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 400px) {
+    .quote p {
+        font-size: 17px;
+        width: 90%;
+    }
+    .Typewriter {
+        font-size: 50px;
+    }
+}

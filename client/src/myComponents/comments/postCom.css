@@ -1,0 +1,13 @@
+@media only screen and (max-width: 385px) {
+    .cmt-gallery{
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+    }
+    .cmt-card{
+        max-width: 100vw !important;
+        overflow: scroll !important;
+    }
+    .u-ico{
+        padding: 10px !important;
+    }
+  }

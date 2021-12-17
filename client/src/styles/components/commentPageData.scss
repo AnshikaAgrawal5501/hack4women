@@ -1,0 +1,15 @@
+.comment-page-card-data {
+    width: 300px;
+}
+
+@media (max-width:992px) and (min-width:768px) {
+    .comment-page-card-data {
+        width: 280px;
+    }
+}
+
+@media (max-width:350px) {
+    .comment-page-card-data {
+        width: 280px;
+    }
+}

@@ -1,0 +1,13 @@
+.user-page {
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width: 400px) {
+    .user-card {
+        width: 300px !important;
+    }
+    .user-page {
+        padding-bottom: 100px !important;
+    }
+}

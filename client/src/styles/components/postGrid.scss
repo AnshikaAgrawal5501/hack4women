@@ -1,0 +1,9 @@
+@media (min-width: 576px) {
+    .post-gallery {
+        height: 97vh;
+    }
+    .post-grid {
+        height: 100%;
+        overflow-y: scroll;
+    }
+}

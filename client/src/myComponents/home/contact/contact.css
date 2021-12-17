@@ -1,0 +1,14 @@
+.contactsvg {
+    background-color: #F7DBF0;
+    padding-bottom: 100px;
+}
+
+.divider {
+    fill: #BFA2DB;
+}
+
+@media (max-width: 768px) {
+    .contactsvg {
+        padding-bottom: 50px;
+    }
+}

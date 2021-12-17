@@ -1,0 +1,19 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.update-page {
+    padding-bottom: 100px;
+    /* min-height: fit-content !important; */
+    height: 100vh !important;
+}
+
+@media (max-width:568px) {
+    .update-form {
+        margin-bottom: 100px;
+    }
+}

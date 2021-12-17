@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+body {
+    min-height: 100vh !important;
+    font-family: 'Manrope', sans-serif;
+    top: 0px !important;
+    overflow-x: hidden !important;
+}
+
+.heading {
+    font-family: 'Titan One', cursive !important;
+    font-size: 50px !important;
+    text-align: center !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #d7a8f7;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #A239EA;
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 30px !important;
+    }
+}
