@@ -165,8 +165,10 @@ After this the client start running at localhost:3000 and one can interact with 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![App Screenshot](./client/public/images/screenshots/home.png)
+![App Screenshot](./client/public/images/screenshots/users.png)
+![App Screenshot](./client/public/images/screenshots/posts.png)
+![App Screenshot](./client/public/images/screenshots/dashboard.png)
 
 ## Future Scope
 
