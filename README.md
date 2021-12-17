@@ -6,7 +6,7 @@ Come up with a solution for women in rural and urban area.
 Femaissance
 
 <p align="center">
-    <img src='https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png' width="300px" />
+    <img src='./client/public/images/navimg.png' width="300px" />
 </p>
 
 
